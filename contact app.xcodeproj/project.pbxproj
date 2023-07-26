@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		36E6B49B2A70CAD500AB09A0 /* contact_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B49A2A70CAD500AB09A0 /* contact_appApp.swift */; };
-		36E6B49D2A70CAD500AB09A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B49C2A70CAD500AB09A0 /* ContentView.swift */; };
 		36E6B49F2A70CAD800AB09A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E6B49E2A70CAD800AB09A0 /* Assets.xcassets */; };
 		36E6B4A22A70CAD800AB09A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E6B4A12A70CAD800AB09A0 /* Preview Assets.xcassets */; };
 		36E6B4AC2A70CAD800AB09A0 /* contact_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4AB2A70CAD800AB09A0 /* contact_appTests.swift */; };
 		36E6B4B62A70CAD800AB09A0 /* contact_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4B52A70CAD800AB09A0 /* contact_appUITests.swift */; };
 		36E6B4B82A70CAD800AB09A0 /* contact_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4B72A70CAD800AB09A0 /* contact_appUITestsLaunchTests.swift */; };
+		36E6B4C82A70CDC900AB09A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4C72A70CDC900AB09A0 /* ContentView.swift */; };
+		36E6B4CA2A70CE2300AB09A0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4C92A70CE2300AB09A0 /* CircleImage.swift */; };
+		36E6B4CC2A70CE3A00AB09A0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4CB2A70CE3A00AB09A0 /* MapView.swift */; };
+		36E6B4CE2A70CE5200AB09A0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4CD2A70CE5200AB09A0 /* InfoView.swift */; };
+		36E6B4D02A70CE6D00AB09A0 /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4CF2A70CE6D00AB09A0 /* ContactCard.swift */; };
+		36E6B4D22A70CE8100AB09A0 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4D12A70CE8100AB09A0 /* ContactList.swift */; };
+		36E6B4D42A70D02000AB09A0 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4D32A70D02000AB09A0 /* ContactRow.swift */; };
+		36E6B4D72A70D0A500AB09A0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4D62A70D0A500AB09A0 /* WelcomeView.swift */; };
+		36E6B4D92A70D0BA00AB09A0 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4D82A70D0BA00AB09A0 /* GreetingView.swift */; };
+		36E6B4DB2A70D0D100AB09A0 /* CircleLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B4DA2A70D0D100AB09A0 /* CircleLayerView.swift */; };
+		36E6B5082A70D16400AB09A0 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E6B5042A70D16300AB09A0 /* contacts.json */; };
+		36E6B5092A70D16400AB09A0 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5052A70D16300AB09A0 /* ColorConstants.swift */; };
+		36E6B50A2A70D16400AB09A0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5062A70D16300AB09A0 /* Contact.swift */; };
+		36E6B50B2A70D16400AB09A0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5072A70D16400AB09A0 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		36E6B4972A70CAD500AB09A0 /* contact app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contact app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E6B49A2A70CAD500AB09A0 /* contact_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_appApp.swift; sourceTree = "<group>"; };
-		36E6B49C2A70CAD500AB09A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36E6B49E2A70CAD800AB09A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36E6B4A12A70CAD800AB09A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36E6B4A72A70CAD800AB09A0 /* contact appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "contact appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,20 @@
 		36E6B4B12A70CAD800AB09A0 /* contact appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "contact appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E6B4B52A70CAD800AB09A0 /* contact_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_appUITests.swift; sourceTree = "<group>"; };
 		36E6B4B72A70CAD800AB09A0 /* contact_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36E6B4C72A70CDC900AB09A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36E6B4C92A70CE2300AB09A0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		36E6B4CB2A70CE3A00AB09A0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		36E6B4CD2A70CE5200AB09A0 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		36E6B4CF2A70CE6D00AB09A0 /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		36E6B4D12A70CE8100AB09A0 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		36E6B4D32A70D02000AB09A0 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		36E6B4D62A70D0A500AB09A0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		36E6B4D82A70D0BA00AB09A0 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		36E6B4DA2A70D0D100AB09A0 /* CircleLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayerView.swift; sourceTree = "<group>"; };
+		36E6B5042A70D16300AB09A0 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		36E6B5052A70D16300AB09A0 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		36E6B5062A70D16300AB09A0 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		36E6B5072A70D16400AB09A0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +120,10 @@
 		36E6B4992A70CAD500AB09A0 /* contact app */ = {
 			isa = PBXGroup;
 			children = (
+				36E6B4DC2A70D0EE00AB09A0 /* Model */,
+				36E6B4D52A70D09600AB09A0 /* Welcome */,
+				36E6B4C42A70CB7400AB09A0 /* Views */,
 				36E6B49A2A70CAD500AB09A0 /* contact_appApp.swift */,
-				36E6B49C2A70CAD500AB09A0 /* ContentView.swift */,
 				36E6B49E2A70CAD800AB09A0 /* Assets.xcassets */,
 				36E6B4A02A70CAD800AB09A0 /* Preview Content */,
 			);
@@ -125,6 +153,41 @@
 				36E6B4B72A70CAD800AB09A0 /* contact_appUITestsLaunchTests.swift */,
 			);
 			path = "contact appUITests";
+			sourceTree = "<group>";
+		};
+		36E6B4C42A70CB7400AB09A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36E6B4C72A70CDC900AB09A0 /* ContentView.swift */,
+				36E6B4C92A70CE2300AB09A0 /* CircleImage.swift */,
+				36E6B4CB2A70CE3A00AB09A0 /* MapView.swift */,
+				36E6B4CD2A70CE5200AB09A0 /* InfoView.swift */,
+				36E6B4CF2A70CE6D00AB09A0 /* ContactCard.swift */,
+				36E6B4D12A70CE8100AB09A0 /* ContactList.swift */,
+				36E6B4D32A70D02000AB09A0 /* ContactRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36E6B4D52A70D09600AB09A0 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				36E6B4D62A70D0A500AB09A0 /* WelcomeView.swift */,
+				36E6B4D82A70D0BA00AB09A0 /* GreetingView.swift */,
+				36E6B4DA2A70D0D100AB09A0 /* CircleLayerView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		36E6B4DC2A70D0EE00AB09A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36E6B5052A70D16300AB09A0 /* ColorConstants.swift */,
+				36E6B5062A70D16300AB09A0 /* Contact.swift */,
+				36E6B5042A70D16300AB09A0 /* contacts.json */,
+				36E6B5072A70D16400AB09A0 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E6B4A22A70CAD800AB09A0 /* Preview Assets.xcassets in Resources */,
+				36E6B5082A70D16400AB09A0 /* contacts.json in Resources */,
 				36E6B49F2A70CAD800AB09A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +321,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E6B49D2A70CAD500AB09A0 /* ContentView.swift in Sources */,
+				36E6B50A2A70D16400AB09A0 /* Contact.swift in Sources */,
+				36E6B4C82A70CDC900AB09A0 /* ContentView.swift in Sources */,
+				36E6B4CC2A70CE3A00AB09A0 /* MapView.swift in Sources */,
+				36E6B4D02A70CE6D00AB09A0 /* ContactCard.swift in Sources */,
+				36E6B5092A70D16400AB09A0 /* ColorConstants.swift in Sources */,
+				36E6B4DB2A70D0D100AB09A0 /* CircleLayerView.swift in Sources */,
+				36E6B4D92A70D0BA00AB09A0 /* GreetingView.swift in Sources */,
 				36E6B49B2A70CAD500AB09A0 /* contact_appApp.swift in Sources */,
+				36E6B4D72A70D0A500AB09A0 /* WelcomeView.swift in Sources */,
+				36E6B4D22A70CE8100AB09A0 /* ContactList.swift in Sources */,
+				36E6B4CE2A70CE5200AB09A0 /* InfoView.swift in Sources */,
+				36E6B4CA2A70CE2300AB09A0 /* CircleImage.swift in Sources */,
+				36E6B4D42A70D02000AB09A0 /* ContactRow.swift in Sources */,
+				36E6B50B2A70D16400AB09A0 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
